@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+*.egg-info/
+
+# Project-specific large/generated files
+artefacts/
+plots/
+data/
+
+# OS
+.DS_Store
+Thumbs.db

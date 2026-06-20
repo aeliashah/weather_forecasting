@@ -4,7 +4,7 @@ This project builds a complete weather forecasting pipeline on the Historical Ho
 
 Seven models are trained and compared head-to-head — three classical ML models and four deep learning architectures — to explore how model complexity trades off against forecasting accuracy on time-series weather data.
 
-✨ Features
+ Features
 
 
 7 trained models: Linear Regression, Random Forest, XGBoost, ANN, RNN, LSTM, GRU
@@ -15,11 +15,11 @@ Residual analysis — error distribution and time-series error plots per model
 Feature engineering — cyclical time encodings, lag features, and rolling statistics
 
 
-🛠️ Tech Stack
+ Tech Stack
 
 CategoryToolsData & MLpandas, NumPy, scikit-learn, XGBoostDeep LearningKeras 3VisualizationMatplotlib, SeabornDashboardStreamlitDeploymentStreamlit Community Cloud
 
-🧩 Pipeline
+ Pipeline
 
 PhaseStep1Load & merge 5 raw CSV files (temperature, humidity, pressure, wind speed, wind direction)2Exploratory data analysis — distributions, correlations3Missing value imputation (forward/backward fill)4Feature engineering — lag features, cyclical (sin/cos) time encodings, rolling statistics580/20 chronological train-test split6MinMax scaling7Train 7 models (LR, RF, XGBoost, ANN, RNN, LSTM, GRU)8Evaluate with MAE, RMSE, R², MAPE9Visualize predictions and residuals10Deploy via Streamlit
 
